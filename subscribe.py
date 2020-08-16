@@ -19,7 +19,7 @@ print(args.bootstrap)
 print(args.topic)
 print(args.tag)
 
-producer = KafkaProducer(bootstrap_servers=args.Bootstrap)
+producer = KafkaProducer(bootstrap_servers=args.bootstrap)
 topic = args.topic # "twitter"
 
 # producer.send('sample', b'Hello, World!')
